@@ -56,16 +56,16 @@ class Fragment4 : Fragment() {
             var result: String = ""
             when (thirdFragInfo) {
                 "+" -> {
-                    result = (firstFragInfo.toInt() + secondFragInfo.toInt()).toString()
+                    result = (firstFragInfo.toFloat() + secondFragInfo.toFloat()).toString()
                 }
                 "-" -> {
-                    result = (firstFragInfo.toInt() - secondFragInfo.toInt()).toString()
+                    result = (firstFragInfo.toFloat() - secondFragInfo.toFloat()).toString()
                 }
                 "*" -> {
-                    result = (firstFragInfo.toInt() * secondFragInfo.toInt()).toString()
+                    result = (firstFragInfo.toFloat() * secondFragInfo.toFloat()).toString()
                 }
                 "/" -> {
-                    result = (firstFragInfo.toInt() / secondFragInfo.toInt()).toString()
+                    result = (firstFragInfo.toFloat() / secondFragInfo.toFloat()).toString()
                 }
             }
             binding.txView4.text =

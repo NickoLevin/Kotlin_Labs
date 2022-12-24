@@ -17,7 +17,7 @@
             android:id="@+id/txView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Это четвёртый фрагмент" />
+            android:text="Результат" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -28,7 +28,7 @@
                 android:id="@+id/buttonBackward4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Перейти на третий" />
+                android:text="Перейти на выбор действия" />
         </LinearLayout>
 
     </LinearLayout>

@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Это второй фрагмент" />
+            android:text="Введите второе число" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -33,14 +33,16 @@
                 android:id="@+id/buttonBackward2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Перейти на первый" />
+                android:text="К первому числу"
+                android:layout_marginRight="10dp
+"/>
 
             <Button
                 android:id="@+id/buttonForward2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Перейти на третий" />
+                android:text="К ДЕЙСТВИЯМ" />
         </LinearLayout>
     </LinearLayout>
 
